@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "claude-maintain"
+version = "0.1.0"
+description = "Environment maintenance tool for Claude Code (~/.claude/)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Ormus", email = "ormus@ormus.solutions" },
+]
+keywords = ["claude", "claude-code", "maintenance", "mcp", "cli"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: System :: Systems Administration",
+]
+dependencies = [
+    "click>=8.1",
+    "rich>=13.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/HermeticOrmus/claude-maintain"
+Repository = "https://github.com/HermeticOrmus/claude-maintain"
+Issues = "https://github.com/HermeticOrmus/claude-maintain/issues"
+
+[project.scripts]
+maintain = "claude_maintain.cli:cli"
