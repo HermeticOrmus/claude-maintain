@@ -1,5 +1,21 @@
-# claude-maintain
+<p align="center">
+  <img src="https://ormus.solutions/mascot/chain_braces_to_swan.gif" alt="claude-maintain" width="128" style="image-rendering: pixelated;" />
+</p>
 
+<h1 align="center">claude-maintain</h1>
+
+<p align="center">
+  <em>Environment maintenance CLI for Claude Code — clean sessions, manage disk, optimize ~/.claude/</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HermeticOrmus/claude-maintain/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/claude-maintain?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/claude-maintain/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/claude-maintain?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/claude-maintain/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/claude-maintain?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+  <img src="https://img.shields.io/badge/Claude_Code-aa8142?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
+</p>
+
+---
 Environment maintenance tool for [Claude Code](https://claude.com/claude-code) (`~/.claude/`).
 
 Diagnoses MCP server health, finds sync debris, analyzes tool usage from session logs, and produces a health score with prioritized recommendations.
